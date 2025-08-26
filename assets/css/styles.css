@@ -1,0 +1,27 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+.navbar *:not(.dropdown-item) {
+    color: #fff !important;
+}
+.dropdown-item:active {
+    background-color: black;
+}
+.background-custom {
+    background-image: url('../img/bg.jpg');
+    background-attachment: fixed;
+}
+.accordion * {
+    color: #fff !important;
+}
+.accordion-item {
+    background-color: #0005;
+}
+.accordion-button {
+    background-color: #00000055;
+    color: #fff;
+}
